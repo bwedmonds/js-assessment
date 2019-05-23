@@ -3,8 +3,8 @@ let one = 10;
 let two = '8';
 let three = 1;
 
-let sum;
-
+let sum = (one + Number(two) + three);
+return (sum)
 
 // ------------------------------------------
 
@@ -12,7 +12,12 @@ let sum;
 // 2. write a loop below that starts at 20 and ends at 100. Check each number,
 // if the number is divisible by 3, add it to the 'threes' array.
 let threes = []
-
+function threeDivisible(threes) {
+  for (let i = 20; i == 100; i++)
+    if (i % 3= 0)
+  threes += i
+}
+return threes;
 
 
 

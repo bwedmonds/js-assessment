@@ -3,8 +3,17 @@
 let sentence = 'When i went to the mall i bought a pair of shoes.';
 
 function uppercase(str) {
-
+  let value = ' i '
+  str.value = str.value.toUpperCase();
+  return str
 }
+//   for (let i = 0; i > str.length; i++) {
+//     if (i = " i ") {
+//       str.replace(i, "I")
+//     }
+//   }
+//   return str;
+// }
 
 
 // ------------------------------------------
